@@ -4,14 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>result/memberInsertOutput.jsp</title>
+<title>result/memberDeleteOutput.jsp</title>
 </head>
 <body>
-	<h2>등록이 정상적으로 처리되었습니다. </h2>
-	<p>${member.name }님 환영합니다. </p>
-	<p>ID : ${member.id }</p>
-	<p>Mail : ${member.mail }</p>
-	
+	<h2>정보 삭제가 완료되었습니다.</h2>
+	<p>${member.id }가 삭제되었습니다. </p>
 	<a href="index.jsp">첫화면으로 이동</a>
 </body>
 </html>

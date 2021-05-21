@@ -23,6 +23,10 @@ public class FrontController extends HttpServlet {
 
 		list = new HashMap<>();
 		list.put("/memberInsert.do", new MemberInsertController()); // list.put("/요청페이지.do", "실행할 컨트롤러");
+		list.put("/memberSearch.do", new MemberSearchController()); 
+		list.put("/memberUpdate.do", new MemberUpdateController()); 
+		list.put("/memberDelete.do", new MemberDeleteController()); 
+		list.put("/memberList.do", new MemberListController()); 
 	}
 
 	@Override
